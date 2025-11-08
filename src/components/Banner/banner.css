@@ -6,12 +6,12 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Выравнивание текста по левому краю */
+  justify-content: flex-start;
   color: #fff;
   overflow: hidden;
 }
 
-/* Затемнение фона */
+
 .banner::after {
   content: "";
   position: absolute;
@@ -22,10 +22,10 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Контент теперь слева */
+
 .banner-content {
   position: relative;
-  text-align: left; /* текст выровнен влево */
+  text-align: left;
   max-width: 800px;
   padding-left: 8%;
   z-index: 2;

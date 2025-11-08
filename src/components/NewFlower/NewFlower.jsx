@@ -1,4 +1,4 @@
-// src/components/NewFlower/NewFlower.jsx
+
 import React from "react";
 import "./NewFlower.css";
 import newFlowerImg from "../../images/all.png";
